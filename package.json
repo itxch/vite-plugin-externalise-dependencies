@@ -6,6 +6,10 @@
     "vite",
     "vite-plugin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itxch/vite-plugin-externalise-dependencies.git"
+  },
   "license": "MIT",
   "author": "Hamza Abdalmajeed (@itxch)",
   "type": "module",
