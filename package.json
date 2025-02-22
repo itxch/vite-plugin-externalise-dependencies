@@ -22,10 +22,10 @@
     "build": "vite build",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
+    "release": "semantic-release",
     "test": "vitest run --coverage",
     "test:watch": "vitest",
-    "typecheck": "tsc",
-    "release": "semantic-release"
+    "typecheck": "tsc"
   },
   "devDependencies": {
     "@types/node": "^22.13.5",
@@ -42,5 +42,8 @@
   },
   "volta": {
     "node": "22.14.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
