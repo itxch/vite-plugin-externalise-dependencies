@@ -1,0 +1,46 @@
+{
+  "name": "@itxch/vite-plugin-externalise-dependencies",
+  "version": "0.0.0-set-by-semantic-release",
+  "description": "A vite plugin which will externalise all packages in the dependencies field in package.json",
+  "keywords": [
+    "vite",
+    "vite-plugin"
+  ],
+  "license": "MIT",
+  "author": "Hamza Abdalmajeed (@itxch)",
+  "type": "module",
+  "exports": {
+    "import": "./dist/plugin.js",
+    "require": "./dist/plugin.cjs"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run --coverage",
+    "test:watch": "vitest",
+    "typecheck": "tsc",
+    "release": "semantic-release"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "@vitest/coverage-v8": "^3.0.6",
+    "prettier": "^3.5.1",
+    "semantic-release": "^24.2.3",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.1",
+    "vite-plugin-dts": "^4.5.0",
+    "vitest": "^3.0.6"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "volta": {
+    "node": "22.14.0"
+  }
+}

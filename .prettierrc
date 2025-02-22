@@ -1,0 +1,14 @@
+{
+  "semi": true,
+  "singleQuote": false,
+  "arrowParens": "always",
+  "experimentalTernaries": true,
+  "overrides": [
+    {
+      "files": "*.md",
+      "options": {
+        "printWidth": 100
+      }
+    }
+  ]
+}
